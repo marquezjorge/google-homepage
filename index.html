@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+
+<!DOCTYPE html>
+
+<style type="text/css">
+	
+	.parent {
+		height: auto;
+		position: relative;
+		min-height: 90vh;
+	}
+
+	.inner {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		text-align: center;
+		transform: translate(-50%, -50%);
+		display: block;
+		object-fit: fill;
+	}
+
+	div {
+		border-color: black;
+		border-width: 1px;
+	}
+
+	body {
+		background-color: white;
+		font-family: sans-serif;
+	}
+
+	#left {
+		float: left;
+		padding: 5px;
+		margin-left: 40px;
+		margin-top: 10px;
+	}
+
+	#right {
+		float: right;
+		padding: 5px;
+		margin-right: 40px;
+		margin-top: 10px;
+	}
+
+	.text-link{
+		font-size: 13px;
+	}
+
+</style>
+
+
+<html>
+<head>
+	<title>Google</title>
+</head>
+
+<body>
+
+	<div>
+		<div id="left">
+			<a href="" class="text-link">About</a>
+			<a href="" style="font-size: 13px;">store</a>
+		</div>
+		<div id="right" style="text-align: right;">
+			<a href="" class="text-link">Gmail</a>
+			<a href="" class="text-link">Images</a>
+		</div>
+	</div>
+
+	<div class="parent">
+		<div class="inner">
+			<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+		
+		<form>
+			<input type="text" name="general-search" style="border-radius: 60px;"> <br>
+			<div id="left">
+				<button type="button">Google Search</button>
+			</div>
+			<div id="right">
+				<button type="button">I'm Feeling Lucky</button>
+			</div>
+		</form>
+		
+		</div>
+	</div>
+
+	<div>
+		<div id="left">
+			<a href="" class="text-link">Advertising</a>
+			<a href="" class="text-link">Business</a>
+			<a href="" class="text-link">How Search Works</a>
+		</div>
+		<div id="right">
+			<a href="" class="text-link">Privacy</a>
+			<a href="" class="text-link">Terms</a>
+			<a href="" class="text-link">Settings</a>
+		</div>
+	</div>
+
+</body>
+</html>
